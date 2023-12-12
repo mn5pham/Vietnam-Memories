@@ -28,7 +28,7 @@
       li {
         display: inline;
         text-align: left;
-        padding: 10px 5px;
+        padding: 10px 35px;
       }
 
       li a {
@@ -46,7 +46,7 @@
       }
 
       h2 {
-        font-size: 40px;
+        font-size: 45px;
         padding-left: 45px;
       }
       
@@ -75,16 +75,17 @@
       }
       
       .gallery {
-        overflow-x: auto; /* Enable horizontal scrolling */
-        white-space: nowrap; /* Prevent image wrapping */
-        padding: 0px;
+        overflow-y: auto; 
+        height: 750px; 
+        padding-left: 40px;
       }
 
       .gallery img {
-        width: 500px;
-        height: 700px;
+        width: 600px;
+        height: 500px;
         object-fit: cover;
-        margin-left: 35px;
+        margin: 0 15px 15px 0;
+        float: left; 
         border-radius: 8px;
         cursor: pointer;
         transition: transform 0.3s;
@@ -92,6 +93,11 @@
 
       .gallery img:hover {
         transform: scale(1.1);
+      }
+      
+      .gallery-caption {
+        margin-top: 5px; /* Adjust margin as needed */
+        text-align: center;
       }
     
     </style>
@@ -104,7 +110,6 @@
     </div>
 
     <header>
-
       <h1>Vietnam</h1>
     </header>
 
@@ -114,18 +119,18 @@
       <li><a href="#">FOOD</a></li>
       <li><a href="#">MEMORIES</a></li>
     </ul>
-    <h2>Food</h2>
+    <h2>Memory Gallery</h2>
     <p> blah blah</p>
     
     <div class="gallery">
-      <img src="pho.jpg" alt="Food 1">
-      <img src="nem nuong.jpg" alt="Food 2">
-      <img src="BBH.jpg" alt="Food 3">
-      <img src="banh xeo.jpg" alt="Food 1">
-      <img src="bo la lot.jpg" alt="Food 2">
-      <img src="egg coffee.jpg" alt="Food 3">
-      <img src="home meal.jpg" alt="Food 1">
-      <img src="meat.jpg" alt="Food 2">
+      <img src="memory1.jpg" alt="img 1">
+      <img src="memory2.jpg" alt="img 2">
+      <img src="memory3.jpg" alt="img 3">
+      <img src="memory4.jpg" alt="img 4">
+      <img src="memory5.jpg" alt="img 5">
+      <img src="memory6.jpg" alt="img 6">
+      <img src="memory7.jpg" alt="img 7">
+      <img src="memory.jpg" alt="img 8">
     </div>
   
     <footer>
