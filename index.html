@@ -9,14 +9,17 @@
         font-family: Verdana, sans-serif;
         padding-top: 60px;
         margin-bottom: 120px;
+        /* Add space at the bottom to avoid overlap with footer */
       }
 
+      /* Styling for the main heading */
       header {
         margin: 40px;
         font-size: 55px;
         color: #E3C6D3;
       }
 
+      /* Styling for the navigation menu */
       ul {
         list-style-type: none;
         padding: 10px;
@@ -40,18 +43,19 @@
       }
 
       li a:visited {
-        color: gray; 
+        color: gray;
       }
 
       li a:hover {
         color: orange;
-        text-decoration: underline; 
+        text-decoration: underline;
       }
 
       li a:active {
-        color: red; 
+        color: red;
       }
 
+      /* Styling for main headings */
       h1 {
         margin: 0;
         margin-bottom: -10px;
@@ -63,23 +67,26 @@
         margin-top: -10px;
         margin-bottom: -5px;
       }
-      
+
       h3 {
         font-size: 30px;
         padding-left: 45px;
       }
-      
-        p {
+
+      /* Styling for paragraphs */
+      p {
         font-size: 20px;
         padding-left: 45px;
       }
 
+      /* Styling for the header image */
       .header-image img {
         padding-left: 30px;
         width: 300px;
         margin-bottom: -60px;
       }
 
+      /* Styling for the footer */
       footer {
         background-color: #E3C6D3;
         text-align: center;
@@ -88,10 +95,10 @@
         bottom: 0;
         width: 100%;
       }
-      
+
       .gallery {
-        overflow-y: auto; 
-        height: 750px; 
+        overflow-y: auto;
+        height: 750px;
         width: 95%;
         padding-left: 40px;
       }
@@ -101,7 +108,7 @@
         height: 450px;
         object-fit: cover;
         margin: 0 15px 15px 0;
-        float: left; 
+        float: left;
         border-radius: 8px;
         cursor: pointer;
         transition: transform 0.3s;
@@ -110,7 +117,6 @@
       .gallery img:hover {
         transform: scale(1.1);
       }
-    
     </style>
   </head>
 
@@ -124,19 +130,23 @@
       <h1>Vietnam</h1>
     </header>
 
-     <ul>
+    <!-- Navigation menu -->
+    <ul>
       <li><a href="https://mn5pham.github.io/Vietnam-Homepage-/"><strong>HOME</strong></a></li>
       <li><a href="https://mn5pham.github.io/Vietnam-Destinations/"><strong>DESTINATIONS</strong></a></li>
       <li><a href="https://mn5pham.github.io/Vietnam-food/"><strong>FOOD</strong></a></li>
       <li><a href="https://mn5pham.github.io/Vietnam-Memories/"><strong>MEMORIES</strong></a></li>
     </ul>
+    
     <h2>Memory Gallery</h2>
-    <p>This trip was one of the most memorable for me because I was able to go with my whole family. 
-    I experinced the rich culture and connected with my Vietnamese roots. I also had a little glimpse into where my parents grew up
-    and came from. Vietnam is a beautiful place to visit and I hope you can experience it someday too!</p>
     
-    <p>Here are some photos that capture my experince in Vietnam:</p>
-    
+    <p>This trip was one of the most memorable for me because I was able to go with my whole family.
+      I experienced the rich culture and connected with my Vietnamese roots. I also had a little glimpse into where my parents grew up
+      and came from. Vietnam is a beautiful place to visit and I hope you can experience it someday too!</p>
+
+    <p>Here are some photos that capture my experience in Vietnam:</p>
+
+    <!-- Gallery items with images -->
     <div class="gallery">
       <img src="memory1.jpg" alt="img 1">
       <img src="memory2.jpg" alt="img 2">
@@ -147,7 +157,8 @@
       <img src="memory7.jpg" alt="img 7">
       <img src="memory8.jpg" alt="img 8">
     </div>
-  
+
+    <!-- Footer section with contact information -->
     <footer>
       <p style="font-size: 16px;">Have any questions?</p>
       <p style="font-size: 16px;">Email me at: <a href="mailto:mn5pham@uwaterloo.ca">mn5pham@uwaterloo.ca</a></p>
